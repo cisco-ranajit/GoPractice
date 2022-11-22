@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ffd690-f69e-4da5-b055-974b9149fef1" name="Changes" comment="added" />
+    <list default="true" id="29ffd690-f69e-4da5-b055-974b9149fef1" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/programmes/arithmaticOperations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmes/firstProgram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmes/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hu0AQ8pjJZrntc4XhTMtfIig5a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,10 +56,37 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build GoPractice/programmes (2)">
+    <configuration name="go build GoPractice/programmes (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPractice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoPractice/programmes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/programmes/variables.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoPractice/programmes (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPractice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoPractice/programmes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/programmes/arithmaticOperations.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoPractice/programmes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPractice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoPractice/programmes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/programmes/firstProgram.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" nameIsGenerated="true">
       <module name="GoPractice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,6 +96,13 @@
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build GoPractice/programmes (2)" />
+        <item itemvalue="Go Build.go build GoPractice/programmes (1)" />
+        <item itemvalue="Go Build.go build GoPractice/programmes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669119519700</updated>
       <workItem from="1669119524880" duration="488000" />
-      <workItem from="1669120020838" duration="457000" />
+      <workItem from="1669120020838" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="added">
       <created>1669120246618</created>
@@ -81,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669120246618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1669120560426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669120560426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added" />
-    <option name="LAST_COMMIT_MESSAGE" value="added" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
