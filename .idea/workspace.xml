@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ffd690-f69e-4da5-b055-974b9149fef1" name="Changes" comment="first program">
-      <change afterPath="$PROJECT_DIR$/programmes/arithmaticOperations.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmes/firstProgram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmes/variables.go" afterDir="false" />
+    <list default="true" id="29ffd690-f69e-4da5-b055-974b9149fef1" name="Changes" comment="added arithmatic operations">
+      <change afterPath="$PROJECT_DIR$/programmes/controlFlow.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,26 +38,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "true",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Go Build.go build GoPractice/programmes (2)">
+}</component>
+  <component name="RunManager" selected="Go Build.go build controlFlow.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="GoPractice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build GoPractice/programmes (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPractice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -87,6 +94,15 @@
       <filePath value="$PROJECT_DIR$/programmes/firstProgram.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build controlFlow.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPractice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="main/programmes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/programmes/controlFlow.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" nameIsGenerated="true">
       <module name="GoPractice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -96,8 +112,16 @@
       <filePath value="$PROJECT_DIR$/test.go" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build test.go" />
+      <item itemvalue="Go Build.go build GoPractice/programmes" />
+      <item itemvalue="Go Build.go build GoPractice/programmes (1)" />
+      <item itemvalue="Go Build.go build GoPractice/programmes (2)" />
+      <item itemvalue="Go Build.go build controlFlow.go" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build controlFlow.go" />
         <item itemvalue="Go Build.go build GoPractice/programmes (2)" />
         <item itemvalue="Go Build.go build GoPractice/programmes (1)" />
         <item itemvalue="Go Build.go build GoPractice/programmes" />
@@ -113,7 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669119519700</updated>
       <workItem from="1669119524880" duration="488000" />
-      <workItem from="1669120020838" duration="1707000" />
+      <workItem from="1669120020838" duration="1795000" />
+      <workItem from="1669122270922" duration="937000" />
     </task>
     <task id="LOCAL-00001" summary="added">
       <created>1669120246618</created>
@@ -136,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669121724357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added variables">
+      <created>1669121767875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669121767875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added arithmatic operations">
+      <created>1669121787009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669121787009</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +196,10 @@
     <MESSAGE value="added" />
     <MESSAGE value="changes" />
     <MESSAGE value="first program" />
-    <option name="LAST_COMMIT_MESSAGE" value="first program" />
+    <MESSAGE value="variables" />
+    <MESSAGE value="added variables" />
+    <MESSAGE value="added arithmatic operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added arithmatic operations" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
