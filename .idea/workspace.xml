@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ffd690-f69e-4da5-b055-974b9149fef1" name="Changes" comment="added control flow statement">
-      <change afterPath="$PROJECT_DIR$/programmes/comparison.go" afterDir="false" />
+    <list default="true" id="29ffd690-f69e-4da5-b055-974b9149fef1" name="Changes" comment="comparison operators">
+      <change afterPath="$PROJECT_DIR$/avgNumber.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmes/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmes/hello.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmes/arithmaticOperations.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmaticOperations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmes/comparison.go" beforeDir="false" afterPath="$PROJECT_DIR$/comparison.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmes/controlFlow.go" beforeDir="false" afterPath="$PROJECT_DIR$/controlFlow.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmes/firstProgram.go" beforeDir="false" afterPath="$PROJECT_DIR$/firstProgram.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmes/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,26 +46,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "true",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Go Build.go build main/programmes">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoPractice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -67,43 +81,16 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoPractice/programmes (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPractice" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GoPractice/programmes" />
+      <package value="main" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/programmes/variables.go" />
+      <filePath value="$PROJECT_DIR$/firstProgram.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoPractice/programmes (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoPractice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GoPractice/programmes" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/programmes/arithmaticOperations.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GoPractice/programmes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoPractice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GoPractice/programmes" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/programmes/firstProgram.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build controlFlow.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoPractice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="main/programmes" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/programmes/controlFlow.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main/programmes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main/programmes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="GoPractice" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
@@ -112,30 +99,25 @@
       <filePath value="$PROJECT_DIR$/programmes/comparison.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" nameIsGenerated="true">
+    <configuration name="go build main/programmes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPractice" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GoPractice" />
+      <package value="main/programmes" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test.go" />
+      <filePath value="$PROJECT_DIR$/programmes/avgNumber.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build test.go" />
+      <item itemvalue="Go Build.go build main" />
+      <item itemvalue="Go Build.go build main (1)" />
       <item itemvalue="Go Build.go build main/programmes" />
-      <item itemvalue="Go Build.go build GoPractice/programmes" />
-      <item itemvalue="Go Build.go build GoPractice/programmes (1)" />
-      <item itemvalue="Go Build.go build GoPractice/programmes (2)" />
-      <item itemvalue="Go Build.go build controlFlow.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main (1)" />
         <item itemvalue="Go Build.go build main/programmes" />
-        <item itemvalue="Go Build.go build controlFlow.go" />
-        <item itemvalue="Go Build.go build GoPractice/programmes (2)" />
-        <item itemvalue="Go Build.go build GoPractice/programmes (1)" />
-        <item itemvalue="Go Build.go build GoPractice/programmes" />
+        <item itemvalue="Go Build.go build main/programmes" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +131,10 @@
       <updated>1669119519700</updated>
       <workItem from="1669119524880" duration="488000" />
       <workItem from="1669120020838" duration="1795000" />
-      <workItem from="1669122270922" duration="1696000" />
+      <workItem from="1669122270922" duration="1843000" />
+      <workItem from="1669138755494" duration="237000" />
+      <workItem from="1669139160332" duration="423000" />
+      <workItem from="1669181541446" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="added">
       <created>1669120246618</created>
@@ -193,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669123544321</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="comparison operators">
+      <created>1669124063539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669124063539</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +210,8 @@
     <MESSAGE value="added variables" />
     <MESSAGE value="added arithmatic operations" />
     <MESSAGE value="added control flow statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="added control flow statement" />
+    <MESSAGE value="comparison operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="comparison operators" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
